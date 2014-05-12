@@ -1,0 +1,22 @@
+{
+	"installed_packages":
+	[
+            "Alignment",
+            "Emmet",
+            "Emmet Css Snippets",
+            "Handlebars",
+            "Markdown Preview",
+            "Liquid",
+            "nginx",
+            "Package Control",
+            "Prefixr",
+            "Pretty JSON",
+            "SFTP",
+            "SideBarEnhancements",
+            "SideBarGit",
+            "Sass",
+            "SublimeLinter",
+            "SublimeLinter-csslint",
+            "Theme - Spacegray"
+	]
+}
