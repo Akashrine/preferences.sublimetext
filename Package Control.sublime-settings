@@ -1,22 +1,30 @@
 {
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
 	"installed_packages":
 	[
-            "Alignment",
-            "Emmet",
-            "Emmet Css Snippets",
-            "Handlebars",
-            "Markdown Preview",
-            "Liquid",
-            "nginx",
-            "Package Control",
-            "Prefixr",
-            "Pretty JSON",
-            "SFTP",
-            "SideBarEnhancements",
-            "SideBarGit",
-            "Sass",
-            "SublimeLinter",
-            "SublimeLinter-csslint",
-            "Theme - Spacegray"
+		"Alignment",
+		"All Autocomplete",
+		"BracketHighlighter",
+		"Comment-Snippets",
+		"Emmet",
+		"Emmet Style Reflector",
+		"Git",
+		"GitGutter",
+		"HTML Boilerplate",
+		"HTMLBeautify",
+		"Markdown Preview",
+		"Material Theme",
+		"Monokai - Spacegray",
+		"Monokai Extended",
+		"Package Control",
+		"Sass",
+		"SASS Snippets",
+		"SassBeautify",
+		"Theme - Afterglow",
+		"Theme - Asphalt",
+		"TrailingSpaces"
 	]
 }
