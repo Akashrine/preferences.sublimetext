@@ -1,50 +1,13 @@
 {
-	"bold_folder_labels": true,
-	"csslint_options":
-	{
-		"adjoining-classes": "warning",
-		"box-model": true,
-		"box-sizing": "warning",
-		"compatible-vendor-prefixes": "warning",
-		"display-property-grouping": true,
-		"duplicate-background-images": "warning",
-		"duplicate-properties": true,
-		"empty-rules": true,
-		"errors": true,
-		"fallback-colors": "warning",
-		"floats": "warning",
-		"font-faces": "warning",
-		"font-sizes": "warning",
-		"gradients": "warning",
-		"ids": false,
-		"import": "warning",
-		"important": false,
-		"known-properties": true,
-		"outline-none": "warning",
-		"overqualified-elements": "warning",
-		"qualified-headings": "warning",
-		"regex-selectors": "warning",
-		"rules-count": "warning",
-		"shorthand": "warning",
-		"star-property-hack": "warning",
-		"text-indent": "warning",
-		"underscore-property-hack": "warning",
-		"unique-headings": "warning",
-		"universal-selector": "warning",
-		"vendor-prefix": true,
-		"zero-units": "warning"
-	},
-	"color_scheme": "Packages/User/base16-ocean.dark (SL).tmTheme",
-	"detect_indentation": false,
-	"draw_minimap_border": true,
-	"draw_white_space": "all",
-	"ensure_newline_at_eof_on_save": true,
-	"fade_fold_buttons": false,
-	"find_selected_text": true,
-	"file_exclude_patterns":
+	"auto_complete_delay": 5,
+	"auto_complete_selector": "source, text",
+	"create_window_at_startup": false,
+	"folder_exclude_patterns":
 	[
+		".svn",
+		".git",
 		".DS_Store",
-		".tags*",
+		"__pycache__",
 		"*.pyc",
 		"*.pyo",
 		"*.exe",
@@ -53,7 +16,6 @@
 		"*.o",
 		"*.a",
 		"*.lib",
-		"*.log",
 		"*.so",
 		"*.dylib",
 		"*.ncb",
@@ -61,45 +23,45 @@
 		"*.suo",
 		"*.pdb",
 		"*.idb",
-		"*.class",
-		"*.psd",
-		"*.db",
-		"*.pdf"
+		".DS_Store",
+		"*.psd"
 	],
-	"folder_exclude_patterns":
-	[
-		"data",
-		".zeus.sock",
-		".git",
-		".svn",
-		".hg",
-		"CVS",
-		".sass-cache",
-		".bundle",
-		"bundle",
-		".rbx",
-		"script",
-		"tmp"
-	],
-	"font_face": "Inconsolata",
-	"font_size": 11.0,
-	"highlight_line": true,
-	"highlight_modified_tabs": true,
+	"font_face": "Source Code Pro",
+	"font_size": 13,
 	"ignored_packages":
 	[
+		"Markdown",
 		"Vintage"
 	],
-	"line_padding_bottom": 0.5,
-	"line_padding_top": 0.5,
-	"new_window_settings":
-	{
-		"show_minimap": false
-	},
-	"save_on_focus_lost": true,
-	"tab_size": 2,
-	"theme": "Spacegray.sublime-theme",
+	"open_files_in_new_window": false,
+	"rulers":
+	[
+		120
+	],
+	"theme": "Material-Theme.sublime-theme",
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
 	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true,
 	"word_wrap": true,
-	"wrap_width": 120
+	"overlay_scroll_bars": "enabled",
+	"line_padding_top": 2,
+	"line_padding_bottom": 2,
+	"always_show_minimap_viewport": true,
+	"bold_folder_labels": true,
+	"indent_guide_options": [ "draw_normal", "draw_active" ],   // Highlight active indent
+
+	"material_theme_small_tab": true,                           // Set small tabs
+	"material_theme_disable_fileicons": false,                   // Hide siderbar file type icons
+	"material_theme_disable_folder_animation": false,        // Disable folder animation
+	"material_theme_small_statusbar": true,                 // Set small status bar
+	"material_theme_disable_tree_indicator": false,          // Disable sidebar file indicator
+	"material_theme_bold_tab": true,                                // Make the tab labels bolder
+	"material_theme_tabs_separator": true,                      // Show tabs separator
+	"material_theme_accent_lime": true,                         // set green lime accent color
+	"material_theme_accent_purple": true,                       // set purple accent color
+	"material_theme_accent_red": true,                          // set pale red accent color
+	"material_theme_accent_orange": false,                       // set orange accent color
+	"material_theme_accent_yellow": false,                       // set yellow accent color
+	"material_theme_panel_separator": true,                 // show bottom panel separator
+	"material_theme_tabs_autowidth": true,                      // Enable autowidth for tabs
+	"material_theme_contrast_mode": true,                       // Enable sidebar and panels contrast mode
 }
